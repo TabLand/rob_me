@@ -1,5 +1,5 @@
 #/bin/bash
-root="/var/www/html/rob_me"
+root="/var/www/rob_me"
 api_key=$(cat "$root/private/beta_giphy_api_key")
 limit=25
 list_path="$root/gif.list"
