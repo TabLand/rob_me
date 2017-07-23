@@ -4,10 +4,10 @@
 </head>
 <body>
     <?php
-        $gifs = shell_exec("/var/www/html/rob_me/gif_stream.sh");
+        $gifs = shell_exec("cat /var/www/html/rob_me/gif.list | sort -R | head -30");
         $gifs = explode("\n", $gifs);
         foreach($gifs as $gif){
-            echo "<img style=\"height:300px\" src=\"$gif\"/>";
+            echo "<img src=\"$gif\"/>";
         }
     ?>
 </body>
