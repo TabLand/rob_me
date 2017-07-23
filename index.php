@@ -12,5 +12,6 @@
         }
     ?>
     <h1 class="balance">I have &pound;<?php system("/opt/monzo/bin/balance.sh"); ?> in my ad-hoc spending account</h1>
+    <h1 class="footer">With thanks to <a href="https://developers.giphy.com/">Giphy</a> for image search, and to <a href="https://developers.monzo.com/">Monzo</a> for building a public beta banking api</h1>
 </body>
 </html>

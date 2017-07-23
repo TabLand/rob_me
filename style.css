@@ -3,17 +3,37 @@
     src: url(https://ijtaba.me.uk/rob_me/CloisterBlack.ttf) format("truetype");
 }
 
-h1.balance {
+h1{
     font-family: "CloisterBlack";
     color: white;
     text-shadow: 1px 1px black;
-    position: fixed;
-    top: 0%;
-    font-size: 3em;
     width: 100%;
     background-color: green;
     opacity: 0.75;
     margin: 0 0 0 0;
+}
+
+h1.balance {
+    position: fixed;
+    top: 0%;
+    font-size: 3em;
+}
+
+h1.footer {
+    position: fixed;
+    bottom: 0%;
+}
+
+a {
+    color: white;    
+}
+
+a:hover {
+    color: black;    
+}
+
+a:visited{
+    color: white;    
 }
 
 img {
