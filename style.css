@@ -17,11 +17,13 @@ h1.balance {
     position: fixed;
     top: 0%;
     font-size: 3em;
+    z-index: 1000;
 }
 
 h1.footer {
     position: fixed;
     bottom: 0%;
+    z-index: 1000;
 }
 
 a {
@@ -43,4 +45,5 @@ body {
     width: 100%;
     text-align: center;
     background-color:green;
+    overflow-x: hidden;
 }
