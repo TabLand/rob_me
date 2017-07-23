@@ -10,5 +10,6 @@
             echo "<img src=\"$gif\"/>";
         }
     ?>
+    <h1>I have &pound;<?php system("/opt/monzo/bin/balance.sh"); ?> in my ad-hoc spending account</h1>
 </body>
 </html>
