@@ -3,7 +3,7 @@
     src: url(https://ijtaba.me.uk/rob_me/CloisterBlack.ttf) format("truetype");
 }
 
-h1 {
+h1.balance {
     font-family: "CloisterBlack";
     color: white;
     text-shadow: 1px 1px black;
