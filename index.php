@@ -5,7 +5,7 @@
 <body>
     <h1>&nbsp;<br/></h1>
     <?php
-        $gifs = shell_exec("cat /var/www/rob_me/gif.list | sort -R | head -30");
+        $gifs = shell_exec("cat /var/www/rob_me/gif.list | sort -R | head -10");
         $gifs = explode("\n", $gifs);
         foreach($gifs as $gif){
             echo "<img src=\"$gif\"/>";
